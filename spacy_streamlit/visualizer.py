@@ -334,6 +334,7 @@ def visualize_spans(
         if data:
             df = pd.DataFrame(data, columns=attrs)
             st.dataframe(df)
+    return html
 
 
 def visualize_textcat(
